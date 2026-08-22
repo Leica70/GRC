@@ -1,0 +1,22 @@
+Question_ID,Domain,Question,Evidence_Expected,Supplier_Response,Reviewer_Status,Risk_Flag
+GOV-01,Governance,Do you maintain an approved information-security programme with defined accountability?,Security policy; governance chart; review date,Yes - annual board approval,Pass,
+GOV-02,Governance,Do you hold independent security certifications or assurance reports relevant to the service?,ISO 27001 certificate and scope; SOC 2 Type II report,ISO 27001 and SOC 2 summary supplied,Pass,
+IAM-01,Identity and access,Is MFA enforced for privileged and remote access?,Configuration evidence; policy; sample access report,Yes for all privileged and remote access,Pass,
+IAM-02,Identity and access,Are privileged accounts reviewed at least quarterly?,Latest review record; exceptions; approvals,Process described but evidence outstanding,Partial,Privileged review evidence missing
+IAM-03,Identity and access,Are joiner mover and leaver changes time-bound and auditable?,Procedure; sample tickets; access logs,Automated from HR system with daily exception check,Pass,
+DAT-01,Data security,Is customer data encrypted in transit and at rest?,Architecture; cryptographic standard; configuration evidence,TLS 1.2+ and AES-256,Pass,
+DAT-02,Data security,Are retention and secure-deletion requirements defined and testable?,Retention schedule; deletion procedure; deletion certificate sample,Defined in DPA schedule,Pass,
+PRV-01,Privacy,Can you support processor obligations and data-subject requests?,DPA; privacy procedure; request workflow,DPA supplied for review,Pending,Legal/DPO review required
+OPS-01,Security operations,Are logs centralised and monitored for suspicious activity?,Logging architecture; sample alert; KPI report,24/7 monitoring described,Partial,Sample monitoring evidence required
+VUL-01,Vulnerability management,Are vulnerabilities scanned prioritised and remediated to defined SLAs?,Scan summary; SLA; ageing report,Monthly scanning and risk-based SLA,Pass,
+PEN-01,Testing,Is independent penetration testing completed at least annually?,Executive summary; remediation closure evidence,Current executive summary supplied,Pass,
+INC-01,Incident management,Are security incidents classified escalated and notified within contractual timelines?,Incident procedure; notification template; tabletop results,24-hour customer notification proposed,Pass,
+BCM-01,Resilience,Are backups protected and restoration tests completed?,Backup standard; last restoration-test report,Daily backups; test evidence outstanding,Fail,Recovery capability unverified
+BCM-02,Resilience,Are RTO and RPO approved and tested?,BCP/DR summary; exercise record; lessons learned,RTO 8 hours RPO 4 hours,Partial,Exercise evidence required
+TPR-01,Subcontractors,Do you maintain and disclose all subprocessors supporting the service?,Subprocessor register; data locations; services provided,Register supplied,Pass,
+TPR-02,Subcontractors,Do customers receive advance notification of material subprocessor changes?,Contract clause; notification process,Notification available on request,Fail,Advance notification absent
+CLD-01,Cloud security,Are customer and provider responsibilities documented?,Shared-responsibility matrix; configuration baseline,Matrix supplied,Pass,
+DEV-01,Secure development,Do you operate secure SDLC change control and code review?,SDLC standard; sample change; review evidence,Documented SDLC and peer review,Pass,
+HR-01,Personnel security,Are background checks confidentiality duties and security training applied?,Screening policy; NDA; training completion metrics,Annual training 98% complete,Pass,
+PHY-01,Physical security,Are hosting facilities protected by layered physical controls?,Data-centre assurance report; certification,Cloud-provider assurance referenced,Pass,
+EXIT-01,Exit management,Can customer data be exported returned and securely deleted on termination?,Exit plan; export format; deletion commitment,Standard exit plan supplied,Pass,
