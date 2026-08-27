@@ -1,16 +1,12 @@
-# Vendor Risk & GRC Portfolio
+# GRC Portfolio
 
-A practical, simulated Third-Party Risk Management (TPRM) portfolio created by **Sal Idriss** to demonstrate vendor-risk, IT-risk and GRC analysis skills.
+A practical collection of simulated Governance, Risk and Compliance projects created by **Sal Idriss** to demonstrate vendor-risk, IT-risk and GRC analysis skills.
 
 ## Important disclaimer
 
 This is an independent learning portfolio based on the fictional organisation **NorthStar Construction & Engineering Ltd**. It contains no confidential employer, supplier or client information. The artefacts demonstrate applied knowledge and do not claim professional ownership of Legal, Data Protection, Internal Audit, Procurement or regulatory-accountability functions.
 
-## Scenario
-
-NorthStar is a construction and engineering company with 250 employees, approximately 100 contractors, a London headquarters, a Stockholm office and three active construction sites. Its environment includes Microsoft 365, Microsoft Entra ID, Intune-managed endpoints, Azure services, construction-site networks, ServiceNow and external providers for cloud, internet, payroll and IT support.
-
-## Portfolio contents
+## Project 1 — Vendor and Third-Party Risk Management
 
 | # | Artefact | Capability demonstrated |
 |---|---|---|
@@ -22,10 +18,12 @@ NorthStar is a construction and engineering company with 250 employees, approxim
 | 6 | [Remediation tracker](06-remediation-tracker.csv) | Actions, owners, ageing, risk acceptance and committee escalation |
 | 7 | [Regulatory awareness notes](07-regulatory-awareness.md) | DORA, GDPR, RCSA, RoPA/DPIA, SOC 2 and PCI DSS interfaces |
 
-## Case-study conclusion
+## Project 2 — IT End-of-Life Server & Application Risk
 
-The assessed payroll and workforce-management supplier is rated **High inherent risk** because it processes employee personal data, supports a time-sensitive business process and relies on a cloud subcontractor. Available controls reduce the risk, but missing restoration-test evidence and incomplete subcontractor notification terms result in **Medium residual risk**. The simulated decision is **conditional approval**, subject to remediation and quarterly monitoring.
+[View the project, dashboard and Excel workbook](end-of-life-server-risk/)
+
+This project demonstrates server lifecycle governance, application discovery, dependency mapping, business-impact assessment, residual-risk scoring, compensating controls and remediation reporting.
 
 ## Interview summary
 
-> I completed a simulated end-to-end vendor-risk review for a construction and engineering organisation. I assessed inherent and residual risk, reviewed supplier evidence, mapped controls to ISO/IEC 27001:2022 Annex A 5.19–5.23, documented remediation actions and produced governance reporting. The work was completed as an independent portfolio exercise and did not involve real supplier or employer data.
+> I built simulated GRC case studies for a construction and engineering organisation. The portfolio includes an end-to-end vendor-risk assessment and an IT end-of-life server programme covering hosted applications, business ownership, technical dependencies, residual-risk decisions and executive reporting. All work is independent portfolio evidence and uses fictional data.
